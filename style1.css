@@ -1,0 +1,296 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #34568B;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 50px;
+    border-bottom:3px dashed #334568B;
+    font-family: algerian;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.colm1 {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+}
+
+.colm1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.textfeild {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:nth-child(1) {
+    background-color: #007bff;
+}
+
+.btn:nth-child(2) {
+    background-color: green;
+}
+
+.btn:nth-child(3) {
+    background-color: yellowgreen;
+}
+
+.btn:nth-child(4) {
+    background-color: skyblue;
+}
+
+.btn:nth-child(5) {
+    background-color: orange;
+}
+
+select.text {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="textarea"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+	background-color: #34568B;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.center
+{
+	/*position: absolute;
+	top : 30%;
+	down : 30%;
+	left: 10%;
+	right: 10%;*/
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	transform: translate(-50px,-50px);
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.center h1
+{
+	text-align: center;
+	font-family: algerian;
+	border-bottom: 3px dashed #34568B;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+.textfeild
+{
+	
+
+	height: 35px;
+	font-size: 18px;
+	border: 2px solid #34568B;
+	border-radius: 5px;
+	box-sizing:border-box;
+	padding: 15px;
+	margin: 20px 0;
+    border-block: 2px;
+    margin-right: 10px;
+    border: 2px 2px;
+    width:calc(100% / 2 - 20px);
+
+}
+
+.text
+{
+	width: 7%;
+	height: 5%;
+	border: 1px solid #34568B;
+	font-size: 18px;
+}
+
+.form
+{
+	padding-bottom: 15px;
+	margin: 30 30px; 
+
+}
+
+.form label
+{
+	font-size: 20px;
+	width: 300px;
+	display: inline-block;
+
+	font-weight: bold;
+}
+
+.btn
+{
+	width: 17%;
+	height: 35px;
+	background-color: red;
+	border-radius: 5px;
+	font-size: 25px;
+	cursor: pointer;
+	border: 0;
+	margin: 7px 7px;
+}
+
+/*.form  label input 
+{
+	margin: 2px;
+}*/
+
+/*.a1 textfeild
+{
+margin: 7px 7px;
+}*/
+ 
+ .box input
+ {
+ 	flex: 1;
+ 	margin-left: 20px;
+ 	padding: 15px 20px px;
+ 	width: 60%;
+ 	height: 25px;
+ 	outline: 0px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ }
+
+ .box
+ {
+ 	background-color: whitesmoke;
+ 	width:calc(100% / 2 - 20px);
+ 	height:auto;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ 	box-sizing: border box;
+ 	display: inline-block;
+ 	margin: 20px 0;
+ }
+
+ .box input::-webkit-calendar-picker-indicator
+ {
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	width: auto;
+ 	height: auto;
+ 	position: absolute;
+ 	background-position: calc(100% - 10px);
+ 	background-size: 30px;
+ 	cursor: pointer;
+
+ }
+  
+ .textfeild select
+ {
+ 	font-color: black;
+ }
+
+
+
+
+ /*.center form .form
+ {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ }
+
+  
+  form .form .colm1
+  {
+  	display: flex;
+  	width: calc(100% / 2 - 15px);
+  	flex-direction: column;
+  } 
+*/
